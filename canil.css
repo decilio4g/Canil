@@ -1,0 +1,52 @@
+body .about {
+  margin-bottom: 70px;
+}
+
+body .about .wrapper {
+  display: flex;
+}
+
+body .about .wrapper .first-container {
+  width: 50%;
+  padding: 0 20px;
+}
+
+body .about .wrapper .second-container {
+  width: 50%;
+  padding: 0 20px;
+}
+
+body .about .wrapper .second-container img {
+  margin-left: 10rem;
+}
+
+body .about .col-md-6 h3 {
+  color: #585858;
+  font-size: 28px;
+  text-transform: none;
+  background: url(assets/heading-bg.png) 50% 50% repeat-x;
+}
+
+body .about .col-md-6 h3 span {
+  background: #fff;
+  display: inline-block;
+  height: 100%;
+  padding: 0 30px 0 0;
+}
+
+body .about .col-md-6 .hours p {
+  /* margin-bottom: 30px; */
+}
+
+body .about .col-md-6 > p {
+  margin-bottom: 30px;
+}
+
+body .about .col-md-6 .hours div {
+  border-bottom: 1px solid #e6e6e6;
+  overflow: hidden;
+  padding: 15px 0;
+
+  display: flex;
+  justify-content: space-between;
+}

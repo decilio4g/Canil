@@ -1,0 +1,51 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #808080;
+}
+
+
+.wrapper {
+  padding: 180px 0 70px;
+}
+
+.filho ul {
+  list-style: none;
+  line-height: 30px;
+  width: 450px;
+}
+
+.filho li {
+  font-size: 16px;
+}
+
+.container .pai .filho img {
+  /* width: 26px; */
+  height: 11px;
+  margin-right: 10px;
+}
+
+.pai {
+  display: flex;
+  justify-content: center;
+}
+
+.pai .filho-2 img {
+  width: 450px;
+  height: 447px;
+
+  border-radius: 100px 20px 120px 30px;
+}
+
+.pai .filho-2 {
+  margin-top: 60px;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  display: block;
+}

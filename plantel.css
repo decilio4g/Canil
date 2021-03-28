@@ -1,0 +1,86 @@
+.row {
+  justify-content: space-around;
+}
+
+.prices {
+  background: #363b3f url(assets/prices-bg.png) 0 0 no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0;
+  overflow: hidden;
+  min-height: 450px;
+  margin: 50px 0 0 0 ;
+  background-position: 0px 15.12px;
+}
+
+.prices .wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.prices .costs {
+  width: 250px;
+}
+
+.prices .costs div {
+  background: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  left: 0 !important;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  z-index: 2;
+
+}
+
+.prices .costs div img {
+  top: 10px;
+  margin-left: -25px;
+  left: 50%;
+  z-index: 2;
+}
+
+.prices .costs div h4 {
+  font-size: 14px;
+  font-weight: 700;
+  background: #f6f6f6;
+  display: block;
+  margin-bottom: 20px;
+  padding: 85px 0 20px;
+  border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+}
+
+.prices .costs div p.per-night {
+  color: #65c178;
+  font-weight: 700;
+}
+
+.prices .costs div p {
+  margin: 0 20px 10px;
+}
+
+.btn.btn-green {
+  color: #65c178;
+  border: 2px solid #65c178;
+  letter-spacing: 3px;
+}
+
+.btn {
+  background: 0 0;
+  font-family: cabin, sans-serif;
+  font-weight: 500;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 8px 12px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}

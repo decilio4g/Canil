@@ -1,0 +1,253 @@
+
+
+body {
+  /* position: relative; */
+}
+
+body .container {
+  margin: 0 auto;
+  max-width: 1080px;
+
+  background-color: #fff;
+}
+
+body .contact {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #fff;
+}
+
+body .contact .contact-list {
+  display: flex;
+
+  list-style: none;
+}
+
+body .contact .contact-list li {
+  margin-right: 20px;
+
+  font-size: 15px;
+  line-height: 42px;
+  font-weight: 700;
+
+  color: #8c5d01;
+
+  font-family: "Quicksand", sans-serif;
+}
+
+body .contact .social-list {
+  display: flex;
+
+  list-style: none;
+}
+
+body .contact .social-list li {
+  margin-left: 10px;
+
+  font-size: 15px;
+  line-height: 42px;
+  font-weight: 700;
+
+  color: #8c5d01;
+
+  font-family: "Quicksand", sans-serif;
+}
+
+/* ------------------------------------ NAV ------------------------ */
+
+body .container-nav {
+  background-color: #191919;
+}
+
+body .container-nav nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #191919;
+  height: 7rem;
+}
+
+body .container-nav nav .container-img {
+  color: #fff;
+}
+
+body .container-nav nav .nav-list {
+  display: flex;
+
+  list-style: none;
+}
+
+body .container-nav nav .nav-list li {
+  margin-right: 15px;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+
+  font-family: "Quicksand", sans-serif;
+  transition: all 0.2s ease-in-out;
+  padding: 1.5rem 1rem;
+}
+
+body .container-nav nav .nav-list .active {
+  background: #8c5d01 !important;
+  border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+}
+
+body .container-nav nav .nav-list li:hover {
+  background: #8c5d01 !important;
+  border-radius: 355px 45px 225px 75px/15px 225px 15px 255px;
+}
+
+body .container-nav nav .nav-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body .container-nav nav .nav-list li a:hover {
+  text-decoration: underline;
+}
+
+body .container-nav nav .nav-list li:last-child {
+  margin-right: 0;
+}
+
+/* ------------------------------------- CONTATO --------------------------- */
+
+body section {
+  height: 10rem;
+}
+body section .page-contact-container {
+  background: rgba(0, 0, 0, 0.45) url("assets/background-image-2.jpg") center;
+  height: 10rem;
+
+  background-blend-mode: darken;
+}
+
+body section .page-contact-container .text {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 10rem;
+  font-size: 2.4rem;
+}
+
+body section .page-contact-container .text i {
+  color: #8c5d01;
+}
+
+body section .page-contact-container .text h2 {
+  font-family: "Quicksand", sans-serif;
+
+  font-weight: 700;
+}
+
+body .contact-with-me-container {
+}
+
+body .contact-with-me-container .contact-with-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+}
+
+body .contact-with-me-container .contact-with-me .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body .contact-with-me-container .contact-with-me .text i {
+  color: #8c5d01;
+}
+
+body .contact-with-me-container .contact-with-me .text h2 {
+  color: #675444;
+  margin-bottom: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.2em;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-top: 10px;
+}
+
+body .contact-with-me-container .content-center {
+}
+
+body .contact-with-me-container .content-center .center {
+  display: flex;
+  justify-content: space-around;
+}
+
+body .contact-with-me-container .content-bottom {
+}
+
+body .contact-with-me-container .content-bottom .bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+body
+  .contact-with-me-container
+  .content-bottom
+  .bottom
+  .first-wrapper
+  div:first-child {
+  padding: 100px 100px;
+  border: 5px solid #fbf4de;
+}
+
+body
+  .contact-with-me-container
+  .content-bottom
+  .bottom
+  .first-wrapper
+  div:last-child {
+  padding: 100px 100px;
+  border: 5px solid #fbf4de;
+  margin: 20px 0;
+}
+
+body .contact-with-me-container .content-bottom .first-wrapper .item-1 {
+}
+
+body .contact-with-me-container .content-bottom .first-wrapper .item-1 h2 {
+  color: red;
+}
+body
+  .contact-with-me-container
+  .content-bottom
+  .bottom
+  .second-wrapper
+  div:first-child {
+  padding: 100px 100px;
+  border: 5px solid #fbf4de;
+}
+
+body
+  .contact-with-me-container
+  .content-bottom
+  .bottom
+  .second-wrapper
+  div:last-child {
+  padding: 100px 100px;
+  border: 5px solid #fbf4de;
+  margin: 20px 0;
+}
+
+/* ------------------------------------- FOOTER --------------------------- */
+
+body footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+body footer p {
+  text-align: center;
+}
